@@ -1,0 +1,17 @@
+{
+    "include": [
+        "$(MODDABLE)/examples/manifest_base.json",
+        "$(MODDABLE)/examples/manifest_commodetto.json",
+        "../../stackchan/utilities/manifest_utility.json",
+        "./manifest_digest.json"
+    ],
+    "modules": {
+        "*": [
+            "./main",
+            "./color"
+        ]
+    },
+    "preload": [
+        "color"
+    ]
+}
