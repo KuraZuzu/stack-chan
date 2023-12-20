@@ -18,7 +18,6 @@
     ],
     "modules": {
         "*": [
-            "./../tests/device-specific-color/color",
             "./touch",
             "./robot",
             "./main"
@@ -26,7 +25,6 @@
         "default-mods/*": "./default-mods/*"
     },
     "preload": [
-        "color",
         "robot",
         "touch"
     ],

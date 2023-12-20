@@ -1,15 +1,10 @@
 import { getDeviceSpecificColor } from "color"
+import Poco from 'commodetto/Poco'
 
-export function onRobotCreated(robot) {
-    /**
-     * Change color
-     */
-    const [r, g, b] = getDeviceSpecificColor()
-    let flag = false
-    robot.button.c.onChanged = function () {
-        if (this.read()) {
-            robot.setColor('secondary', r, g, b)
-            flag = !flag
-        }
-    }
-}
+const poco = new Poco(globalThis.screen)
+
+const [r, g, b] = getDeviceSpecificColor()
+const color = poco.makeColor(r, g, b)
+poco.begin(0, 0, poco.width, poco.height)
+poco.fillRectangle(color, 0, 0, poco.width, poco.height)
+poco.end()
