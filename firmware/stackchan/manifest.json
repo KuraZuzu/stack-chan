@@ -15,7 +15,7 @@
         "./speeches/manifest_speech.json",
         "./utilities/manifest_utility.json",
         "./manifest_typings.json",
-        "./device-specific-color/manifest_digest.json"
+        "./device-specific-color/manifest_color.json"
     ],
     "modules": {
         "*": [

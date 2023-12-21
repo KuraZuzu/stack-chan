@@ -5,7 +5,11 @@
             "$(MODDABLE)/modules/crypt/digest/kcl/*",
             "$(MODDABLE)/modules/crypt/arith/*",
             "$(MODDABLE)/modules/crypt/bin/*",
-            "$(MODDABLE)/modules/data/base64/*"
+            "$(MODDABLE)/modules/data/base64/*",
+            "./color"
         ]
-    }
+    },
+    "preload": [
+        "color"
+    ]
 }
