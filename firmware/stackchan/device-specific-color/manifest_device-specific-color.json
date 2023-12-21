@@ -6,7 +6,8 @@
             "$(MODDABLE)/modules/crypt/arith/*",
             "$(MODDABLE)/modules/crypt/bin/*",
             "$(MODDABLE)/modules/data/base64/*",
-            "./device-specific-color"
+            "./device-specific-color",
+            "./mac-adress"
         ]
     },
     "preload": [
