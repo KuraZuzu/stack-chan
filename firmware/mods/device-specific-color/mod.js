@@ -1,4 +1,4 @@
-import { getDeviceSpecificColor } from 'device-specific-color'
+import { getDeviceSpecificColor } from 'color'
 
 export function onRobotCreated(robot) {
     /**

@@ -15,22 +15,21 @@
         "./speeches/manifest_speech.json",
         "./utilities/manifest_utility.json",
         "./manifest_typings.json",
-        "./device-specific-color/manifest_device-specific-color.json"
+        "./color/manifest_color.json"
     ],
     "modules": {
         "*": [
             "./touch",
             "./robot",
             "./main",
-            "./device-specific-color/device-specific-color"
+            "./color/color"
         ],
         "default-mods/*": "./default-mods/*"
     },
     "preload": [
         "robot",
         "touch",
-        "color",
-        "device-specific-color"
+        "color"
     ],
     "strip": [],
     "creation": {
