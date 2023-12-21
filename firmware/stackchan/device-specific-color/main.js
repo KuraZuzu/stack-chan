@@ -1,4 +1,4 @@
-import { getDeviceSpecificColor } from "color"
+import { getDeviceSpecificColor } from "device-specific-color"
 import Poco from 'commodetto/Poco'
 
 const poco = new Poco(globalThis.screen)
